@@ -5,7 +5,7 @@ export const userRouter = express.Router();
 const path = "/";
 
 userRouter.get(path, (req, res) => {
-  res.send("Hello World 2");
+  res.send("Hello World");
 });
 
 userRouter.post(path, (req, res) => {
